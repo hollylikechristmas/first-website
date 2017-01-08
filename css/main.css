@@ -1,0 +1,202 @@
+/******* BASE STYLES ********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+/****** GRID ******/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/****** NAVIGATION AND LOGO ******/
+#navigation .half-width {
+  height: 175px;
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+#navigation img {
+  padding: 25px 20px;
+  margin: 0px;
+}
+
+nav {
+  float: right;
+  padding: 60px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/****** HEADER ******/
+
+header {
+  background: url('img/table-3.png');
+  background-size: cover;
+  height: 700px;
+  clear: both;
+  margin-top: 0px;
+}
+
+header h2 {
+  clear: both;
+  color: #FFFFFF;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 65px;
+  line-height: 80px;
+  margin: auto;
+  padding-top: 200px;
+  text-align: center;
+  width: 1000px;
+}
+
+header h2 span {
+  color: #99ffeb;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+  color: #2b2b2b;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 36px;
+  line-height: 24px;
+}
+
+#about p {
+  color: #527a7a;
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  line-height: 40px;
+  padding-right: 50px;
+}
+
+/****** WORK ******/
+#work {
+  background-color: #ccfff5;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work .img {
+  margin-bottom: 40px;
+}
+
+#work h3 {
+  color: #2b2b2b;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+#work p {
+  color: #2b2b2b;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 0 35px;
+}
+
+/****** CONTACT ******/
+#contact {
+  background-color: #e6fffa;
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact-img {
+  border: 12px solid #527a7a;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+#envelope {
+  padding: 0 10px 0 115px;
+}
+
+#envelope, #email-address {
+  display: inline-block;
+}
+
+#contact h2 {
+  color: #2B2B2B;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 36px;
+}
+
+#email-header {
+  color: #2B2B2B;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+  margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+  color: #2B2B2B;
+  font-family: "Raleway", sans-serif;
+  font-size: 29px;
+  margin: 40px 0 0 0;
+}
+
+#contact a {
+  color: #527a7a;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
